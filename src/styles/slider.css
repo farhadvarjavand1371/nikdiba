@@ -1,0 +1,12 @@
+.awssld__bullets {
+    bottom: 16px;
+    z-index: 2;
+}
+.awssld__bullets .awssld__bullets--active {
+    transform: scale(1.5);
+    background: #8e3939;
+    border: 1px solid white;
+}
+.awssld__bullets button {
+    border: 1px solid white;
+}

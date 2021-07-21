@@ -1,4 +1,4 @@
 {
-  "webapi": "https://api.mahoorapps.ir",
-  "localapi": "http://localhost:8000"
+  "webapi": "https://api-test.nikdiba.com/nikdiba",
+  "localapi": "http://localhost:3000"
 }

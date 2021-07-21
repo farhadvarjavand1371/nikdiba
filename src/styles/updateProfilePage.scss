@@ -1,0 +1,47 @@
+.fv-profile-page.fv-profile-update-page{
+  .fv-profile-info.fv-profile-update{
+    [type=text] , [type=password] ,  [type=number] ,  [type=email]{
+      height: 10%;
+      border-radius: 6px;
+      padding-right: 1%;
+      background: aliceblue;
+      margin-right: 1%;
+      width: 30%;
+      border: 1px solid gray;
+      padding-bottom: 1%;
+      padding-top: 1%;
+      margin-top: 1%;
+      margin-bottom: 1%;
+    }
+    [type=number] ,  [type=email]{
+      direction: ltr;
+      padding-left: 1%;
+    }
+    [type=button]{
+      direction: ltr;
+      margin-inline-end: auto;
+      margin-left: 9%;
+      color: white;
+      background: darkgreen;
+      border-radius: 9px;
+      font-size: 14px;
+      padding: 1%;
+      font-weight: 700;
+      margin-bottom: 3%;
+    }
+    .fa-eye , .fa-eye-slash{
+      margin-right: -31px;
+      display: table;
+      margin-top: 2vw;
+    }
+    .fv-error-password-text p{
+      color:red ;
+      font-size:13px ;
+      margin-right:10% ;
+      margin-top: 0%;
+    }
+     p {
+      margin-top: 2%;
+    }
+  }
+}

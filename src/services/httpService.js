@@ -10,7 +10,7 @@ axios.interceptors.response.use(null, error => {
         error.response.status < 500;
     if (!expectedErrors) {
         console.log(error);
-        alert("لطفا مجددا تلاش کنید");
+        alert("دسترسی به اینترنت ندارید");
        // window.location.reload();
     }
 
@@ -22,5 +22,6 @@ export default {
     get: axios.get,
     post: axios.post,
     put: axios.put,
-    delete: axios.delete
+    delete: axios.delete,
+    patch: axios.patch
 }
