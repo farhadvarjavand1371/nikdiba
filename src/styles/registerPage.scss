@@ -1,0 +1,86 @@
+::placeholder {
+    color: #ddd9e1;
+    opacity: 1;
+}
+.fv-login-page-center-body{
+    place-content: center;
+    background: white;
+    width: 28%;
+    margin: auto;
+    direction: rtl;
+    padding: 3%;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -11%;
+}
+.fv-login-page-center-body .fv-login-page-texts p{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 13px;
+    font-weight: 400;
+}
+.fv-login-page-center-body .fv-login-page-errors-texts p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #d00000;
+}
+.fv-login-page-center-body .fv-go-to-link{
+    color: #007bff;
+    place-content: center;
+    border-top: 1px solid #ddd9e1;
+    margin-top: 6%;
+    padding-top: 3%;
+    font-weight: 400;
+}
+.fv-login-page-img{
+    margin-bottom: 3%;
+    place-content: center;
+}
+.fv-login-page-img img{
+    width: 120px;
+    height: 30px;
+}
+.fv-login-page-center-body [type=button]{
+    background: #d00000 ;
+    color: white;
+    margin-top: 3%;
+    padding: inherit;
+    padding-bottom: 2%;
+}
+.fv-test{
+    display: grid;
+    text-align: start;
+}
+.fv-login-page-center-body input{
+    width: 100%;
+    border: 0.5px solid #bbb6bf96;
+    line-height: 35px;
+    border-radius: 5px;
+    padding-right: 2%;
+}
+.fv-login-page-center-body .fv-password-button{
+    display: block;
+    border: 0.5px solid #bbb6bf96;
+    border-radius: 5px;
+    padding-right: 2%;
+    height: 42px;
+}
+.fv-login-page-center-body .fv-password-button input{
+  border: none;
+}
+.fv-login-page-center-body .fv-password-button i{
+    position: absolute;
+    margin: inherit;
+    margin: auto;
+    margin-top: 12px;
+    margin-right: -26px;
+}
+
+
+
+@media (max-width: 768px) {
+.fv-login-page-center-body{
+    width: 80%;
+}
+}

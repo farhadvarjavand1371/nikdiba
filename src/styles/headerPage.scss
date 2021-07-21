@@ -1,0 +1,50 @@
+.fv-header-page{
+    margin-top: 2%;
+    direction: rtl;
+}
+.fv-logo-page img{
+    width: 100%;
+    height: 40px;
+}
+.fv-header-page .fv-menu-cascade{
+    display: grid;
+    margin-right: 39%;
+    padding-top: 4%;
+    padding-right: 14%;
+    font-weight: 400;
+    width: 80%;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 9px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    position: absolute;
+    background: white;
+}
+.fv-header-page .fv-menu-cascade .fv-exit-menu-text{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+    margin-right: -10%;
+    padding-top: 5%;
+}
+.fv-search-box-page{
+   background: #e5f5f5;
+    line-height: 40px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+.fv-search-box-page input{
+    width: 150%;
+    background: #e5f5f5;
+    border:1px solid  #e5f5f5;
+    border-radius: 10px;
+}
+.fv-header-page .col-md-2{
+    text-align: start;
+}
+.fv-header-page .fv-header-button{
+    font-weight: 500;
+    font-size: 16px;
+}
+.fv-header-page .fv-header-top{
+    align-items: center;
+    margin-right: 5%;
+}
